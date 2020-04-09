@@ -1,0 +1,29 @@
+
+  
+  input {
+    height: 2em;
+    font-size: 1em;
+    padding-left: .4em;
+  }
+  
+img{
+  width: 300px;
+  height: 100%;
+}
+#price{
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+#rating{
+  font-size: 18px;
+  font-weight: 400;
+}
+div{
+  margin-left: 250px;
+}
+h1{
+  size: 20px;
+  color: black;
+  margin-left: 510px;
+}

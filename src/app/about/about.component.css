@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p,b,i{font-family: "Karma", sans-serif;color:black ;
+  }
+  .w3-bar-block .w3-bar-item {padding:20px}
+  
+  div{
+    background-color: aliceblue;
+    height: 100%;
+  }
+  
