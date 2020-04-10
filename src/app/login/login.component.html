@@ -1,47 +1,46 @@
 <div style="background-color: blue;margin-left: 20px; margin-top: 6px;" >
-    <form action="/action_page.php">
-      <label for="fname">login</label>
-      <input type="text" id="fname" name="firstname" placeholder="login">
-  
-      <label for="lname">password</label>
-      <input type="text" id="lname" name="lastname" placeholder="password">
-      <p>
-        <app-click-me></app-click-me>
-      </p>
-   
-    </form>
-  </div> 
-  
-   <div >
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">City</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-      <label for="lname">Address</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your address..">
-      <label for="lname">Phone</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your phone..">
-      <label for="lname">username</label>
-      <input type="text" id="lname" name="lastname" placeholder="">
-      <label for="lname">password</label>
-      <input type="text" id="lname" name="lastname" placeholder="">
-      <label for="lname">Login</label>
-     <br>
+  <form action="/action_page.php">
+    <label for="fname">login</label>
+    <input type="text" id="fname" name="firstname" [(ngModel)]="inputText2">
+    {{inputText2}}
+    <label for="lname">password</label>
+    <input type="text" id="lname" name="lastname" [(ngModel)]="inputText3">
+    {{inputText3}}
     
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-  <p>
-    <app-click-me></app-click-me>
-  </p>
+    <p>
+      <app-click-me></app-click-me>
+    </p>
+  </form>
+</div> 
 
+ <div >
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" [(ngModel)]="inputText4">
+    <p class="df">{{inputText4}}</p>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" [(ngModel)]="inputText5">
+    <p class="df">{{inputText5}}</p>
+    <label for="country">City</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="lname">Address</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your address..">
+    <label for="lname">Phone</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your phone..">
+    <label for="lname">username</label>
+    <input type="text" id="lname" name="lastname" placeholder="">
+    <label for="lname">password</label>
+    <input type="text" id="lname" name="lastname" placeholder="">
+    <label for="lname">Login</label>
+    <input type="text" id="lname" name="lastname" placeholder="">
+   <br>
+   <p>
+    <app-click-me2></app-click-me2>
+  </p>
+  </form>
+</div>
  

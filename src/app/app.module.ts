@@ -17,9 +17,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { OrderComponent } from './order/order.component';
-
+import { Cart1Component } from './cart1/cart1.component';
 import { ClickMeComponent } from './click-me.component';
+import { ClickMe2Component } from './click-me2.component';
+import { ParentComponent } from './parent/parent.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -31,6 +32,7 @@ import { ClickMeComponent } from './click-me.component';
     //   { path: 'products', component: CategoriesComponent },
     //   {path: 'products/:productId', component : ProductDetailsComponent},
     // ])
+    
   ],
   declarations: [
 
@@ -44,9 +46,10 @@ import { ClickMeComponent } from './click-me.component';
     AboutComponent,
     HomeComponent,
     LoginComponent,
-    OrderComponent,
+    Cart1Component,
     ClickMeComponent,
-
+    ClickMe2Component,
+    ParentComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

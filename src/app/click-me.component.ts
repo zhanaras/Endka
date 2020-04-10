@@ -1,4 +1,3 @@
-
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,11 +5,15 @@ import { Component } from '@angular/core';
   template: `
     <button (click)="onClickMe()">Log in</button>
     {{clickMessage}}`
+    
 })
 export class ClickMeComponent {
   clickMessage = '';
 
   onClickMe() {
     this.clickMessage = 'You logged in';
+  }
+  onClickMe1() {
+    this.clickMessage = 'You registered in';
   }
 }

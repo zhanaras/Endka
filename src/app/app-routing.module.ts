@@ -11,8 +11,9 @@ import { HomeComponent } from './home/home.component';
 
 import { LoginComponent } from './login/login.component';
 
-import { OrderComponent } from './order/order.component';
+import { Cart1Component } from './cart1/cart1.component';
 
+import { ParentComponent } from './parent/parent.component';
 
 
 import { from } from 'rxjs';
@@ -27,7 +28,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   {path: 'home', component: HomeComponent },
   {path: 'login', component: LoginComponent },
-  {path: 'order', component: OrderComponent }
+  {path: 'cart1', component: Cart1Component },
+  {path: 'parent', component: ParentComponent }
 ];
 
 @NgModule({

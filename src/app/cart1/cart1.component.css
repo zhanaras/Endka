@@ -1,0 +1,37 @@
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h2{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 25px;
+    font-weight: lighter;
+    color: #494949;
+}
+option{
+    font-size: 25px;
+    font-weight: lighter;
+    color: #494949;
+}
+.label{
+    font-size: medium;
+    font-style: oblique;
+    color: cadetblue;
+}
+.order{
+    font-size: medium;
+    font-style: oblique;
+    color: black;
+}
+.in{
+    color: black;
+}

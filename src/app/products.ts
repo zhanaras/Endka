@@ -173,8 +173,25 @@ export const products = [
     description:'Нежный крем-суп из чечевицы и копченой курицы с добавлением сливок и дольки лимона ',
     rating:4.9,
     },
-  
-  
+  {
+    image: "assets/gt.jpg",
+    name: 'Haylou GT ',
+    price: 7350,
+    
+    description: 'Haylou GT1 отпечатков пальцев Touch Bluetooth наушники, HD стерео Беспроводной наушники, Шум отмена игровая гарнитура',
+    rating:4.8,
+    site:"https://aliexpress.ru/item/32985243771.html?spm=a2g0o.productlist.0.0.20456b4c8u1nZI&algo_pvid=3e14f067-9e12-4ec8-95d3-496f08db2588&algo_expid=3e14f067-9e12-4ec8-95d3-496f08db2588-0&btsid=e504607d-502d-42b8-8650-ce3ffe2f8d3d&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_53"
+  },
+  {
+    image: "assets/keto.jpg",
+   
+    name: 'Ketotek ЖК Бесконтактный цифровой лазерный ИК инфракрасный термометр C/F выбор поверхности пирометр заменить GM550 ',
+    price: 3027.34,
+    
+    description: 'Цифровой инфракрасный термометр Изготовитель: KETOTEK Ключевые особенности: • Широкий диапазон температур: -50 ~ 600 C (-58 ~ 1112 F), -50 ~ 400 C(-58 ~ 752 F)• Соотношение D:S = 12:1, максимальное расстояние до целевого объект',
+    rating:4.9,
+    site:"https://aliexpress.ru/item/1850564727.html?spm=a2g0o.productlist.0.0.7fc92d54oZlrGs&algo_pvid=514ee7a2-9220-43b9-832b-2a1cb5af3c67&algo_expid=514ee7a2-9220-43b9-832b-2a1cb5af3c67-0&btsid=905da66b-4883-44cf-9aaf-707915030a08&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_53"
+  },
   {
     image: "assets/18.jpg",
     name: 'АДЖИКА ИЗ СПЕЛЫХ ТОМАТОВ (50ГР)',
@@ -187,8 +204,52 @@ export const products = [
     price: 176180,
     categoryId:8,
     rating:4.8,
-     }
- 
+     },
+  {
+    image: "assets/navi.jpg",
+    name: '2019 Роскошные брендовые кварцевые часы NAVIFORCE с датой, мужские повседневные военные спортивные часы, кожаные Наручные часы, мужские часы ',
+    price: 6816,
+    description: 'Naviforce Target (9063) - уникальная модель которая славится своим алюминиевого цвета корпусом в сочетании красной полоски на ключи настройки и хорошим функционалом. Ремешок изготовлен из кожи коричневого цвета прошит белыми нитками. Часы прекрасно подойдет как для классической, так и для спортивной одежды.',
+    rating:4.9,
+   
+    site:"https://aliexpress.ru/item/32951066585.html?spm=a2g01.12616982.tplist001.27.439d72c3U6Zs20&gps-id=5919747&scm=1007.23961.125497.0&scm_id=1007.23961.125497.0&scm-url=1007.23961.125497.0&pvid=d6511b81-2051-4950-b079-e8d0a800e2ad"
+  },
+  {
+    image: "assets/sand.jpg",
+    name: 'SanDisk Micro SD  ',
+    price: 9835,
+    description: 'Оригинальный двойной флеш-накопитель SanDisk Micro SD карты A1 16 Гб оперативной памяти, 32 Гб встроенной памяти, 64 ГБ 128 ГБ до 100 МБ/с. карты памяти SDHC/SDXC Новое поступление Uitra C10 слот для карт памяти',
+    rating:4.9,
+    
+    site:"https://aliexpress.ru/item/32821207925.html?spm=a2g0o.home.15002.7.dc8d1b86wX2rZ8&gps-id=pcJustForYou&scm=1007.13562.158406.0&scm_id=1007.13562.158406.0&scm-url=1007.13562.158406.0&pvid=6ab43ed5-1401-496d-abbc-ecd2f320be28&_t=gps-id:pcJustForYou,scm-url:1007.13562.158406.0,pvid:6ab43ed5-1401-496d-abbc-ecd2f320be28,tpp_buckets:668%230%23131923%2318_668%23808%235951%23642_668%23888%233325%2319"
+  },
+  {
+    image: "assets/cub.jpg",
+    name: 'MoYu Yuhu, 3x3x3 ',
+    price: 1182.15 ,
+    description: 'Новый MoYu Yuhu, 3x3x3, meilong magic cube stickerless куб головоломка Профессиональный Скорость cubo magico, Обучающие образовательные игрушки для студентов',
+    rating:4.9,
+   
+    site:"https://aliexpress.ru/item/33021333803.html?spm=a2g0o.productlist.0.0.77d12cb8rjExOa&algo_pvid=dfea1e02-3d34-43b3-afd5-f0ced0c54674&algo_expid=dfea1e02-3d34-43b3-afd5-f0ced0c54674-2&btsid=2422124a-f991-4714-84c6-a73f7931b6d4&ws_ab_test=searchweb0_0,searchweb201602_2,searchweb201603_53"
+  },
+  {
+    image: "assets/mibox.jpg",
+    name: ' Xiaomi mi ТВ-приставка',
+    price: 21562,
+    description: 'Глобальная версия Xiaomi mi ТВ-приставка S Android 8,1 2 Гб ОЗУ 8 Гб ПЗУ смарт-ТВ приставка 4K четырехъядерный HD mi WiFi Mali 450 1000Mbp плеер',
+    rating:4.9,
+    
+    site:"https://aliexpress.ru/item/32953088477.html?spm=a2g0o.store_home.hotSpots_833049449.0"
+  },
+  {
+    image: "assets/air.jpg",
+    name: 'Испарительный Увлажнитель ',
+    price: 37881,
+    description: 'SMARTMI Испарительный Увлажнитель 2 без смога для дома воздушный демпфер Арома диффузор эфирное масло тумана Xiaomi Mijia приложение управление',
+    rating:4.9,
+    
+    site:"https://aliexpress.ru/item/4000270991987.html?spm=2114.12010615.8148356.33.55092aa2h4EcI4&spm=a2g0o.store_home.hotSpots_833049449.1"
+  }
 ];
 
 
